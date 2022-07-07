@@ -11,6 +11,6 @@
         }
 
         Console.WriteLine("The sum of all the numbers from 1 to " + x + " is: " + y);
-        Console.WriteLine("Press enter to try again..");
+        Console.WriteLine("Would you like to continue? Y/N");
     }
-while (Console.ReadKey().Key == ConsoleKey.Enter);
+while (Console.ReadKey().Key == ConsoleKey.Y);
